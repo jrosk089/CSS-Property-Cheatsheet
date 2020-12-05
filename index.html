@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="./styles.css" type="text/css" rel="stylesheet">
+        <title>Cheatsheet for common CSS properties</title>
+    </head>
+    <main>
+        <h1>Cheatsheet for common CSS properties</h1>
+        <table>
+            <header>
+            <tr>
+                <th class="main-heading">CSS tag</th>
+                <th class="main-heading">Effect</th>
+                <th class="main-heading">MDN Link</th>
+            </tr>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="#background">Background</a></li>
+                    <li><a href="#borders">Borders</a></li>
+                    <li><a href="#text">Text & Fonts</a></li>
+                    <li><a href="#positioning">Positioning & Spacing</a></li>
+                    <li><a href="#other">Other Properties</a></li>
+                </ul>
+            </nav>
+
+            <section id="background"></section>
+                <tr>
+                    <th colspan="3" class="topic">Background</th>
+                </tr>
+                <tr>
+                    <td><code>background</code></td>
+                    <td>Shorthand: allows several background properties to be defined at once</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>background-attachment</code></td>
+                    <td>Sets whether a background image's position is fixed or scrolls with the containing block.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>background-color</code></td>
+                    <td>Changes the color of the background</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>background-image</code></td>
+                    <td>Sets one or more background images on an element</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-image">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>background-position</code></td>
+                    <td>Sets the inital postion for each background image (relative to <code>background-origin</code>).</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-position">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>background-repeat</code></td>
+                    <td>Sets how background images are repeated (horizontal/vertical)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat">MDN Info</a></td>
+                </tr>
+            </section>
+            
+            <section id="borders">
+                <tr>
+                    <th colspan="3" class="topic">Borders</th>
+                </tr>
+                <tr>
+                    <td><code>border</code></td>
+                    <td>Shorthand: allows several border properties to be set at once (can also be specifically applied to <code>border-top</code>, 
+                        <code>-left</code>, <code>-right</code> and <code>-bottom</code>).</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>border-color</code></td>
+                    <td>Sets the color of an element's border (can also be specifically applied to <code>border-top</code>, 
+                        <code>-left</code>, <code>-right</code> and <code>-bottom</code>)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-color">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>border-style</code></td>
+                    <td>Sets the line style of the element's border (can also be specifically applied to <code>border-top</code>, 
+                        <code>-left</code>, <code>-right</code> and <code>-bottom</code>)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>border-width</code></td>
+                    <td>Sets the width of the element's border (can also be specifically applied to <code>border-top</code>, 
+                        <code>-left</code>, <code>-right</code> and <code>-bottom</code>)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-width">MDN Info</a></td>
+                </tr>
+            </section>
+
+            <section id="text">
+                <tr>
+                    <th colspan="3" class="topic">Text & Fonts</th>
+                </tr>
+                <tr>
+                    <td><code>color</code></td>
+                    <td>Sets the foreground color value of an elemnt's text and text decorations</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>font</code></td>
+                    <td>Shorthand: allows several properties to be set at once</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>font-family</code></td>
+                    <td>Specifies a prioritized list of one or more font family names</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>font-size</code></td>
+                    <td>Sets the size of the font</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>font-style</code></td>
+                    <td>Sets the style of the font (e.g., italics)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-style">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>font-variant</code></td>
+                    <td>Shorthand: allows several font variants to be set at once</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>font-weight</code></td>
+                    <td>Sets the weight (or boldness) of the font</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>letter-spacing</code></td>
+                    <td>Sets the horizontal spacing behavior between text characters/td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>text-align</code></td>
+                    <td>Sets the horizontal alignment of a block element or table-cell box (left, right, center or justify)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>text-decoration</code></td>
+                    <td>Shorthand: sets the appearance of decorative lines on text</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>text-indent</code></td>
+                    <td>Sets the length of empty space before lines of text in a block</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>text-transform</code></td>
+                    <td>Sets how an element's text is capitalized</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform">MDN Info</a></td>
+                </tr>
+            </section>
+
+            <section id="positioning">
+                <tr>
+                    <th colspan="3" class="topic">Positioning & Spacing</th>
+                </tr>
+                <tr>
+                    <td><code>clear</code></td>
+                    <td>Sets whether an element must be moved below (cleared) <em>floating</em> elements that precede it</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clear">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>float</code></td>
+                    <td>Places an element on the left or right side of its container, allowing text and inline elements
+                        to wrap around it
+                    </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>height</code></td>
+                    <td>Specifies the height of an element</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/height">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>left</code></td>
+                    <td>With <code>top</code>, <code>right</code> and <code>bottom</code>, participates in specifying the horizontal position of a 
+                        <em>positioned</em> element</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/left">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>margin</code></td>
+                    <td>Sets the margin area on all four sides of an element (the side can also be specified with <code>margin-top</code>, <code>-left</code>, 
+                        <code>right</code> and <code>-bottom</code>)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>padding</code></td>
+                    <td>Sets the padding area on all four sides of an element (the side can also be specified with <code>padding-top</code>, <code>-left</code>, 
+                        <code>right</code> and <code>-bottom</code>)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>position</code></td>
+                    <td>Sets how an element is positioned in a document (<code>top</code>, <code>left</code>, <code>right</code> and <code>bottom</code> 
+                        determine the final location of <em>positioned</em> elements)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>vertical-align</code></td>
+                    <td>Sets the verticle alignment of an inline, inline-block or table-cell box</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>z-index</code></td>
+                    <td>Sets the z-order of a <em>positioned</em> element and its descendants or flex items; elements with a larger z-index cover those
+                    with a smaller one</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index">MDN Info</a></td>
+                </tr>
+            </section>
+
+            <section id="other">
+                <tr>
+                    <th colspan="3" class="topic">Other Properties</th>
+                </tr>
+                <tr>
+                    <td><code>clip</code></td>
+                    <td>Defines a visible portion of an element (basically crops it); applies only to <em>absolutely/fixed</em> positioned elements</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clip">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>cursor</code></td>
+                    <td>Sets the cursor to use when the mouse is over an element</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>display</code></td>
+                    <td>Sets whether an element is treated as a block or inline element and the layout used for its children</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>filter</code></td>
+                    <td>Applies graphical effects like blur or color shift to an element</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>list-style</code></td>
+                    <td>Shorthand: allows several list style properties to be set at once</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>list-style-image</code></td>
+                    <td>Sets an image to be used as the list item marker</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>list-style-position</code></td>
+                    <td>Sets the psotion of the marker relative to a list item</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>list-style-type</code></td>
+                    <td>Sets the marker (such as a disc etc.) of a list item element</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>overflow</code></td>
+                    <td>Sets the desired behavior for an element's overflow; i.e., when an element's context is too big to fit in
+                        its block formatting context
+                    </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow">MDN Info</a></td>
+                </tr>
+                <tr>
+                    <td><code>visibility</code></td>
+                    <td>Shows or hides an element without changing the layout of a document
+                    </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/visibility">MDN Info</a></td>
+                </tr>
+            </section>
+        </table>
+        <footer>
+            <p>A Codecademy project, completed <time datetime="2020-12-05">5. December 2020</time> by jrosk089</p>
+        </footer>
+
+
+    </main>
+
+
+
+
+
+
+</html>
