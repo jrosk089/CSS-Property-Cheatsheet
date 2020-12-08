@@ -39,6 +39,10 @@ a {
     color: lightblue;
 }
 
+a:hover {
+    color: white;
+}
+
 nav {
     font-size: 18px;
     text-align: center;
